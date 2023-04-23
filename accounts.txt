@@ -1,0 +1,75 @@
+Lista de Usuarios  
+id      nombre                     |    e-mail                   |     pass       | Sucursal  |  turno    | departamento    |  Permisos
+*03 - Lesley Ibarra Zarate         |les.ib.zarate@gamestore.com  |ibarra14        |centro     |Matutino   |Recursos Humanos | 2
+*04 - Marcos Rangel Patiño         |marapa@gamestore.com         |rangel96        |centro     |Vespertino |Recursos Humanos | 2
+*05 - José Ramón López Camarena    |joloca@gamestore.com         |camarena15      |centro     |matutino   |almacen          | 3
+*06 - Jorge Falcón Rosas           |jojofalcon@gamestore.com     |risitas33       |centro     |Vespertino |almacen          | 3
+*07 - Azhalea Rivas Pinto          |rivaspinto@gamestore.com     |azhalea06       |centro     |matutino   |Sistemas         | 3
+*08 - Ernesio Conde Herrera        |ercohe@gamestore.com         |tuertoraro88    |centro     |vespertino |Sistemas         | 3
+*09 - Evelyn Segundo Acosta        |evseaca@gamestore.com        |segundo03       |centro     |matutino   |finanzas         | 3
+*10 - María Fernanda Cruz Robles   |mafercruz@gamestore.com      |mafer87         |centro     |vespertino |finanzas         | 3
+*11 - Bianca Roldan Castro         |biancaroca@gamestore.com     |bianca35        |centro     |matutino   |recursos humanos | 2 
+*12 - Rosa Gómez Pérez             |rogope@gamestore.com         |rosita55        |centro     |vespertino |recursos humanos | 2 
+*13 - Honorio Juárez Nuñez         |hojunu@gamestore.com         |honorio15       |centro     |matutino   |almacen          |4
+*14 - Brallan López López          |elbrallan@gamestore.com      |chaka83         |centro     |matutino   |almacen          |4 
+*15 - Quebin Ortíz Glaria          |elquebin@gamestore.com       |quebin48        |centro     |vespertino |almacen          |4
+*16 - Florian Rocha Ruíz           |flororu@gamestore.com        |florian99       |centro     |vespertino |almacen          |4
+*17 - Serapio Buenrrostro Olguín   |buenrrostro@gamestore.com    |serapio63       |centro     |matutino   |finanzas         |4  
+*18 - Rebeca Luna Paéz             |rebeluna@gamestore.com       |rebeca51        |centro     |matutino   |finanzas         |4
+*19 - Carla Acevez García          |aceverzca@gamestore.com      |karlilla31      |centro     |vespertino |finanzas         |4
+*20 - René Hernández Islas         |renegado@gamestore.com       |ranarene77      |centro     |vespertino |finanzas         |4
+*21 - Carmen Pérez Tosacano        |capeto@gamestore.com         |toscano18       |centro     |matutino   |sistemas         |4
+*22 - Pablo Hernández Islas        |pablo15@gamestore.com        |pumba11         |centro     |matutino   |sistemas         |4
+*23 - Horacio Villaseñor Guardia   |hovigu@gamestore.com         |villaguardia35  |centro     |vespertino |sistemas         |4
+*24 - Rolando Huerta Costilla      |roland@gamestore.com         |costillita35    |centro     |vespertino |sistemas         |4 
+
+*25 - Jonathan Vergara Navarro     |jonhy@gamestore.com          |jmerol95        |Norte      |Matutino   |Direccion general| 1
+*26 - José Luis Hernández Colula   |johnco@gamestore.com         |wicho3000       |Norte      |Vespertino |Direccion general| 1
+*27 - Isela Fernández Flores       |isela.ff@gamestore.com       |isela14         |Norte      |Matutino   |Recursos Humanos | 2
+*28 - Juliana Salcedo Del Pino     |jdelpino@gamestore.com       |pinito666       |Norte      |Vespertino |Recursos Humanos | 2
+*29 - Alfonso Zayas Rojas          |zayasrojas@gamestore.com     |zayaverse1      |Norte      |matutino   |almacen          | 3
+*30 - Alfredo Gutiérrez Blanco     |alfred@gamestore.com         |blanquito8      |Norte      |Vespertino |almacen          | 3
+*31 - Alondra García Millan        |alondragami@gamestore.com    |alondra08       |Norte      |matutino   |Sistemas         | 3
+*32 - Jacinto Arroyo Solis         |arroyo@gamestore.com         |jacinto99       |Norte      |vespertino |Sistemas         | 3
+*33 - Amelia Pérez Sosa            |aperezsosa@gamestore.com     |sosa1803        |Norte      |matutino   |finanzas         | 3
+*34 - Magdalena Ávila Camacho      |magcam@gamestore.com         |magdala887      |Norte      |vespertino |finanzas         | 3
+*35 - Adalberto Ramones Garza      |adalramones@gamestore.com    |ramones56       |Norte      |matutino   |recursos humanos | 2 
+*36 - Perla Álvarez Aguilar        |per.al.ag@gamestore.com      |perlita33       |Norte      |vespertino |recursos humanos | 2 
+*37 - Rodrigo Alvez Murillo        |roalmu@gamestore.com         |pony41          |Norte      |matutino   |almacen          |4
+*38 - Gerardo Apaza Méndez         |apaza@gamestore.com          |jerry101        |Norte      |matutino   |almacen          |4 
+*39 - Diego Godínez Costa          |digoco@gamestore.com         |eldiego365      |Norte      |vespertino |almacen          |4
+*40 - Brain Guadalupe López López  |lopezlopez@gamestore.com     |lupe896         |Norte      |vespertino |almacen          |4
+*41 - Quenedi Hernández García     |queherga@gamestore.com       |elkeny38        |Norte      |matutino   |finanzas         |4  
+*42 - Gastón Sanchéz Lara          |gasala@gamestore.com         |gastoncito5     |Norte      |matutino   |finanzas         |4
+*43 - Jenifer Velazquez Díaz       |jenny@gamestore.com          |lajenys46       |Norte      |vespertino |finanzas         |4
+*44 - Rosendo Gavílan Arredondo    |rosgavar@gamestore.com       |gavilan61       |Norte      |vespertino |finanzas         |4
+*45 - Carmelo Vivas Baeza          |carmelo@gamestore.com        |melobaeza67     |Norte      |matutino   |sistemas         |4
+*46 - Ricky Martínez Gallardo      |rickie@gamestore.com         |rikimartin69    |Norte      |matutino   |sistemas         |4
+*47 - Anselmo Cuevas Dávila        |anselmo@gamestore.com        |baticuevas13    |Norte      |vespertino |sistemas         |4
+*48 - Ignacio Pacheco Ortíz        |ignacio@gamestore.com        |nachito74       |Norte      |vespertino |sistemas         |4 
+
+*49 - Moreno Limón Isaac           |isaacml@gamestore.com        |limon6895       |Sur        |Matutino   |Direccion general| 1
+*50 - Oswaldo Romero Lugo          |oswarolu@gamestore.com       |romero11        |Sur        |Vespertino |Direccion general| 1
+*51 - Deyanira Rubí Soto Luna      |lunasoto@gamestore.com       |deyas814        |Sur        |Matutino   |Recursos Humanos | 2
+*52 - Edgardo Marín Lozano         |edmalo@gamestore.com         |lozano33        |Sur        |Vespertino |Recursos Humanos | 2
+*53 - Paolo Rivera Castillo        |paorica@gamestore.com        |paolocas56      |Sur        |matutino   |almacen          | 3
+*54 - Jairo Tepoz Macedonio        |tepozm@gamestore.com         |mecedonio43     |Sur        |Vespertino |almacen          | 3
+*55 - Andrea García Llamas         |andreagarl@gamestore.com     |llamas78        |Sur        |matutino   |Sistemas         | 3
+*56 - Allison Beltrán Campos       |allisonbc@gamestore.com      |allicampos54    |Sur        |vespertino |Sistemas         | 3
+*57 - Marina Favela Santillan      |santillan@gamestore.com      |marinafs11      |Sur        |matutino   |finanzas         | 3
+*58 - Yanina Ponce De León         |poncedeleon@gamestore.com    |yaninapdl36     |Sur        |vespertino |finanzas         | 3
+*59 - León Aguirre Carranza        |lacarranza@gamestore.com     |carranza987     |Sur        |matutino   |recursos humanos | 2 
+*60 - Arnulfo Mora Velenzuela      |armova@gamestore.com         |morita39        |Sur        |vespertino |recursos humanos | 2 
+*61 - Melitón Ochoa Olmos          |meochol@gamestore.com        |visconde33      |Sur        |matutino   |almacen          |4
+*62 - Reynaldo Urbina Cortez       |reynaldo@gamestore.com       |reyinald777     |Sur        |matutino   |almacen          |4 
+*63 - Arturo Mercado Puerta        |armercadon@gamestore.com     |elmer0313       |Sur        |vespertino |almacen          |4
+*64 - Cletus Zuñiga Ríos           |cletusrios@gamestore.com     |cletusdingus5   |Sur        |vespertino |almacen          |4
+*65 - Brener Fuentes Islas         |brenerfi@gamestore.com       |fuentesis540    |Sur        |matutino   |finanzas         |4  
+*66 - Leticia Carvajal Ramos       |letcarvajal@gamestore.com    |laletys78       |Sur        |matutino   |finanzas         |4
+*67 - Donovan Pérez Hernández      |donovanph@gamestore.com      |doni313100      |Sur        |vespertino |finanzas         |4
+*68 - Alma Dúran Magallón          |almaduma@gamestore.com       |almitadm35      |Sur        |vespertino |finanzas         |4
+*69 - Carlos Pedraza Orozco        |carlospo@gamestore.com       |carlitos87      |Sur        |matutino   |sistemas         |4
+*70 - Marisol Magadan Zavala       |marisolmaza@gamestore.com    |marisunli73     |Sur        |matutino   |sistemas         |4
+*71 - Francisco Tenorio Domínguez  |frantedo@gamestore.com       |panchocachondo8 |Sur        |vespertino |sistemas         |4
+*72 - Javier Olmedo Juárez         |javierolju@gamestore.com     |javis1917       |Sur        |vespertino |sistemas         |4 
+

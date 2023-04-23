@@ -1,0 +1,5 @@
+<?php
+$albumname = "Reunion";
+$albuminfo = "Album de fotos de la reunión de fin de año.";
+$IMG_2681_info = "This is an example";
+?>

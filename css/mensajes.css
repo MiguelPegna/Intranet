@@ -1,0 +1,170 @@
+:root{
+    --funtePrincipal: 'Nunito', sans-serif;
+    --GrisOscuro: #636363;
+    --GrisMediano: #a9a9a9;
+    --GrisClaro: #c3c3c3;
+    --Blanco: white;
+    --Negro: black;
+
+}
+
+/*globales*/
+html {
+    font-size: 62.5%; /* 1 rem = 10px en monitores de alta resolucion*/
+    box-sizing: border-box; /*aqui se realiza el box model*/
+    
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto 0 auto;    
+}
+h1{
+    font-family: var(--funtePrincipal);
+    font-size: 3.8rem;
+}
+h2{
+    font-family: var(--funtePrincipal);
+    font-size: 2.8rem;
+}
+h3{
+    font-family: var(--funtePrincipal);
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;    
+}
+body{
+    background-image: linear-gradient(to bottom, black,gray ,white);
+   
+}
+/* MAIN*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portada{
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 1rem;
+}
+.servicios{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: var(--GrisOscuro);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+/*mensajes*/
+.nuevomensaje{
+    display: block;
+    position: relative;
+    top:4.4rem ;
+    left: 5rem;
+    
+}
+/* .nuevomensaje a{
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--funtePrincipal);
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--Negro);
+    background-color: var(--GrisMediano);
+    padding: 0.6rem;
+    border-radius: 2rem;
+    
+} */
+.nuevomensaje a:hover{
+    background-color: var(--GrisClaro);
+    padding: 1rem;
+    cursor: pointer;
+    color: var(--Blanco);
+}
+.servicios table{
+    width: 90%;    
+    background-color: var(--GrisClaro);
+    margin: 2rem auto 0 auto;
+    border-collapse: collapse;    
+}
+table a{
+    text-decoration: none;
+    color: var(--Negro);
+}
+table a:hover{
+    background-color: var(--GrisMediano);  
+    color: var(--Blanco);
+    cursor: pointer;
+}
+th{
+    background-color:var(--GrisOscuro);
+    color: var(--Negro);
+    font-family: var(--funtePrincipal);
+    font-weight: bold;
+    font-size: 1rem;
+}
+td,th{
+    font-family: var(--funtePrincipal);
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+tr{
+    text-align: center;    
+}
+
+/*envio de mensajes nuevo.php*/
+
+.mensajesenviados{  
+    padding-top: 1rem;  
+    width: 95%;
+    margin: 0 auto;
+}
+.parayasunto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.etiquetatext{
+    font-family: var(--funtePrincipal);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.text{
+    width: 18rem;
+    border-radius: 1rem;
+    height: 3rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 5rem;
+}
+.botonenvio{
+    width: 22rem;
+    height: 5rem;
+    font-family: var(--funtePrincipal);
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius:1rem ;
+    background-color: var(--GrisMediano);
+    color: var(--Blanco);
+}
+.botonenvio:hover{
+    background-color: var(--GrisClaro);
+    color: var(--Negro);
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}

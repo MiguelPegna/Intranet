@@ -1,0 +1,3 @@
+Esta carpeta contendra todas la imagenes necesarias para el proyecto
+imagenes de los diferentes productos
+imagenes e iconos para la interfaz 

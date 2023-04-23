@@ -1,0 +1,5 @@
+<?php
+$albumname = "Presentacion E3";
+$albuminfo = "Imagenes de la presentación del E3 y los últimos juegos que se lanzaran.";
+$IMG_2681_info = "This is an example";
+?>

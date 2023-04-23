@@ -1,0 +1,380 @@
+:root{
+    --funtePrincipal: 'Nunito', sans-serif;
+    --GrisOscuro: #636363;
+    --GrisMediano: #a9a9a9;
+    --GrisClaro: #c3c3c3;
+    --Blanco: white;
+    --Negro: black;
+
+}
+
+/*globales*/
+html {
+    font-size: 62.5%; /* 1 rem = 10px en monitores de alta resolucion*/
+    box-sizing: border-box; /*aqui se realiza el box model*/
+    
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto 0 auto;    
+}
+h1{
+    font-family: var(--funtePrincipal);
+    font-size: 3.8rem;
+}
+h2{
+    font-family: var(--funtePrincipal);
+    font-size: 2.8rem;
+}
+h3{
+    font-family: var(--funtePrincipal);
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;    
+}
+body{
+    background-image: linear-gradient(to bottom, black,gray ,white);
+   
+}
+
+/*header*/
+.InicioC{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    gap: 1rem;
+    align-items: center;
+}
+.InicioC a:hover{
+    background-color: var(--GrisMediano);
+    cursor: pointer;    
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.conjunto1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.conjunto2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.conjunto3{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.online{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* MAIN*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portada{
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 1rem;
+}
+.servicios{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: var(--GrisOscuro);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.cuadroServ{
+    background-color: var(--GrisClaro);
+    width: 70%;
+    margin: 0 auto;    
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.infoSer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    width: 13rem;
+    margin: 1rem;
+    font-family: var(--funtePrincipal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--Negro);
+    
+}
+.infoSer a{
+    text-decoration: none;
+}
+.infoSer:hover{
+    background-color: var(--GrisClaro);
+}
+
+/*mensajes*/
+
+.busqueda{
+    
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*tabla stock*/
+.tabla1{
+    background-color: var(--GrisOscuro);
+   width: 100%;
+   height: 20rem;
+   overflow: hidden;
+}
+.tabla2{
+    width: 90%;
+    margin: 0 auto;
+    height: 20rem;
+    overflow: scroll;
+}
+.servicios table{
+    width: 90%;    
+    background-color: var(--GrisClaro);
+    margin: 2rem auto 0 auto;
+    border-collapse: collapse;
+    
+}
+th{
+    background-color:var(--GrisOscuro);
+    color: var(--Negro);
+}
+td,th{
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/*clientes*/
+.stockclientes{
+    height: 65vh;
+}
+.clientes{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;  
+    gap: 2rem;
+    overflow: hidden;
+}
+.clientesScroll{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--GrisMediano);
+    overflow-x: scroll;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.blclientes{
+    font-family: var(--funtePrincipal);
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: var(--GrisOscuro);
+    border-radius: 1rem;
+    padding: 1rem;
+    color: var(--Blanco);
+    text-align: center;
+    
+}
+/*user */
+
+.doscolumnas{
+    width: 95;    
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.inf-emp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.inf{
+    font-family: var(--funtePrincipal);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.inf tr{
+    border-radius: 1rem;
+}
+
+.addcliente{
+    font-family: var(--funtePrincipal);
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--GrisClaro);
+    text-decoration: none;
+    color: var(--Negro);
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    width: 28rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 32rem;
+    left: 14rem;
+}
+.addcliente:hover{
+    background-color: var(--GrisOscuro);
+    color:var(--Blanco) ;
+    font-weight: bold;
+}
+.addclienteP{
+    font-family: var(--funtePrincipal);
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: var(--GrisClaro);
+    text-decoration: none;
+    color: var(--Negro);
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    width: 28rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 32rem;
+    left: 14rem;
+}
+.addclienteP:hover{
+    background-color: var(--GrisOscuro);
+    color:var(--Blanco) ;
+    font-weight: bold;
+}
+
+.editarcli{
+    display: inline-block;
+    margin: 0;
+    padding: 0 1rem;
+    text-decoration: none;
+    background-color: var(--GrisClaro);
+    color: var(--Blanco);
+    border-radius: 1rem;
+}
+.editarcli:hover{
+    background-color: var(--GrisClaro);
+    color: var(--Negro);
+    cursor: pointer;
+}
+
+/*formulario de nuevos clientes*/
+.clientesnuevosform{    
+    width: 98%;
+    margin: 0 auto;
+}
+.clientesnuevos{
+    width: 100%;
+    margin: 1rem;
+    
+}
+
+.foto{
+    text-align: center;
+    margin: 1rem;
+}
+.sombra{
+    background-color: var(--GrisClaro);
+    height: 15rem;
+    border-radius: 50%;
+
+}
+.informacion{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.infnewcli{
+    font-family: var(--funtePrincipal);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.barra{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+}
+
+.etiqueta{
+    font-family: var(--funtePrincipal);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+}
+.btnborrar{
+    text-decoration: none;
+    font-family: var(--funtePrincipal);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--Blanco);
+    padding: 1rem;
+    text-align: center;
+    width: 10rem;
+    background-color: var(--GrisClaro);
+    border-radius: 2rem;
+}
+.btnborrar:hover{
+    color: var(--Negro);
+    
+}
+.addprod{
+    display: block;
+    position: fixed;
+    color: var(--Blanco);
+    text-decoration: none;
+    font-family: var(--funtePrincipal);
+    font-size: 2rem;
+    font-weight: bold;
+    top: 32rem;
+    left: 21rem;
+    background-color: var(--GrisMediano);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.addprod:hover{
+    color: var(--Negro);
+}

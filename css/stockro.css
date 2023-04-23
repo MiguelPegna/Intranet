@@ -1,0 +1,160 @@
+:root{
+    --funtePrincipal: 'Nunito', sans-serif;
+    --GrisOscuro: #636363;
+    --GrisMediano: #a9a9a9;
+    --GrisClaro: #c3c3c3;
+    --Blanco: white;
+    --Negro: black;
+
+}
+
+/*globales*/
+html {
+    font-size: 62.5%; /* 1 rem = 10px en monitores de alta resolucion*/
+    box-sizing: border-box; /*aqui se realiza el box model*/
+    
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto 0 auto;    
+}
+h1{
+    font-family: var(--funtePrincipal);
+    font-size: 3.8rem;
+}
+h2{
+    font-family: var(--funtePrincipal);
+    font-size: 2.8rem;
+}
+h3{
+    font-family: var(--funtePrincipal);
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;    
+}
+body{
+    background-image: linear-gradient(to bottom, black,gray ,white);
+   
+}
+
+/*header*/
+.InicioC{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    gap: 1rem;
+}
+.online{
+    display: flex;
+    justify-content: space-evenly;
+}
+.usuario{
+    display: flex;
+    width: 6rem;
+    border: 5px solid var(--GrisMediano) ;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+/* MAIN*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portada{
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 1rem;
+}
+.servicios{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: var(--GrisOscuro);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.cuadroServ{
+    background-color: var(--GrisClaro);
+    width: 70%;
+    margin: 0 auto;    
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.infoSer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    width: 13rem;
+    margin: 1rem;
+    font-family: var(--funtePrincipal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--Negro);
+    
+}
+.infoSer a{
+    text-decoration: none;
+}
+.infoSer:hover{
+    background-color: var(--GrisClaro);
+}
+
+/*mensajes*/
+
+.busqueda{
+    
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*tabla stock*/
+.tabla1{
+    background-color: var(--GrisOscuro);
+   width: 100%;
+   height: 20rem;
+   overflow: hidden;
+}
+.tabla2{
+    width: 90%;
+    margin: 0 auto;
+    height: 20rem;
+    overflow: scroll;
+}
+
+.servicios table{
+    width: 90%;
+    background-color: var(--GrisClaro);
+    margin: 2rem auto 0 auto;
+    border-collapse: collapse;
+}
+th{
+    background-color:var(--GrisOscuro);
+    color: var(--Negro);
+}
+td,th{
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+

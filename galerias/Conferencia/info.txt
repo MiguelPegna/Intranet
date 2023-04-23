@@ -1,0 +1,5 @@
+<?php
+$albumname = "Conferencia de videojuegos";
+$albuminfo = "Album con fotos de la conferencia de videojuegos de este año.";
+$IMG_2681_info = "This is an example";
+?>

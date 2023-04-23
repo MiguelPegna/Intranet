@@ -1,0 +1,1 @@
+Dentro de esta carpeta se colocaran todos los scripts en java script.

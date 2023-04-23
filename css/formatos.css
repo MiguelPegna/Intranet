@@ -1,0 +1,139 @@
+:root{
+    --funtePrincipal: 'Nunito', sans-serif;
+    --GrisOscuro: #636363;
+    --GrisMediano: #a9a9a9;
+    --GrisClaro: #c3c3c3;
+    --Blanco: white;
+    --Negro: black;
+
+}
+
+/*globales*/
+html {
+    font-size: 62.5%; /* 1 rem = 10px en monitores de alta resolucion*/
+    box-sizing: border-box; /*aqui se realiza el box model*/
+    
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto 0 auto;    
+}
+h1{
+    font-family: var(--funtePrincipal);
+    font-size: 3.8rem;
+}
+h2{
+    font-family: var(--funtePrincipal);
+    font-size: 2.8rem;
+}
+h3{
+    font-family: var(--funtePrincipal);
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: center;    
+}
+body{
+    background-image: linear-gradient(to bottom, black,gray ,white);
+   
+}
+
+/*header*/
+.InicioC{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    gap: 1rem;
+}
+
+/* MAIN*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portada{
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 1rem;
+}
+.servicios{
+    margin-top: 1rem;
+    width: 100%;
+    
+    padding: 1rem;
+    height: 50vh;
+}
+.contenedorFormatos{    
+    width: 90%;
+    height: 30vh ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.derecho{
+    border-radius: 2rem;
+    background-color: var(--GrisOscuro);
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+.opciones{
+    margin-top: 1rem;
+    padding: 1rem;    
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: var(--funtePrincipal);
+    font-weight: 700;
+    
+}
+.opciones:hover{
+    background-color: var(--GrisMediano);
+    cursor: pointer;
+    color: var(--Blanco);
+}
+
+
+.izquierdo{
+    border-radius: 2rem;
+    background-color: var(--GrisOscuro);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.izquierdo a{
+    text-decoration: none; 
+    text-align: center;
+    color: var(--Negro);
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    
+}
+.izquierdo a:hover{
+
+    background-color: var(--GrisMediano);
+    cursor: pointer;
+    padding: 1rem;
+    color: var(--Blanco);
+}
+.izquierdo p{
+    margin: -1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+

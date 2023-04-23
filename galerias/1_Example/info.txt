@@ -1,0 +1,5 @@
+<?php
+$albumname = "Oficina";
+$albuminfo = "Album con fotos del trabajo en las oficinas de Game Store.";
+$IMG_2681_info = "This is an example";
+?>
