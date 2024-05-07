@@ -81,7 +81,7 @@
 
         try{
             $correo="vectormirror@gmail.com";
-            $pass="xcvbnm4321";
+            $pass="password";
             $myHost="smtp.gmail.com";
             $puerto= "587";
             $deParte="Asistente Game Store";
